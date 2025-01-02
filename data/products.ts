@@ -1,0 +1,55 @@
+import { Product } from '@/types/products';
+
+export const products: Product[] = [
+  {
+    id: 1,
+    name: 'Generic Paracetamol',
+    genericName: 'Acetaminophen',
+    price: 20,
+    image: 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&q=80',
+    category: 'pain relief',
+    rating: 4.5,
+    reviews: 128,
+    seller: {
+      name: 'Jana Aushadhi Store',
+      rating: 4.8,
+      location: 'Delhi',
+    },
+    description: 'Effective pain relief medication',
+    benefits: ['Reduces fever', 'Relieves mild to moderate pain'],
+  },
+  {
+    id: 2,
+    name: 'Generic Metformin',
+    genericName: 'Metformin Hydrochloride',
+    price: 45,
+    image: 'https://images.unsplash.com/photo-1585435557343-3b092031a831?auto=format&fit=crop&q=80',
+    category: 'diabetes',
+    rating: 4.7,
+    reviews: 256,
+    seller: {
+      name: 'City Pharmacy',
+      rating: 4.6,
+      location: 'Mumbai',
+    },
+    description: 'Diabetes management medication',
+    benefits: ['Controls blood sugar', 'Improves insulin sensitivity'],
+  },
+  {
+    id: 3,
+    name: 'Generic Amlodipine',
+    genericName: 'Amlodipine Besylate',
+    price: 35,
+    image: 'https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&q=80',
+    category: 'heart health',
+    rating: 4.6,
+    reviews: 189,
+    seller: {
+      name: 'Medicare Pharmacy',
+      rating: 4.7,
+      location: 'Bangalore',
+    },
+    description: 'Blood pressure control medication',
+    benefits: ['Lowers blood pressure', 'Prevents chest pain'],
+  },
+];
